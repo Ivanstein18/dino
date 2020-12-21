@@ -58,6 +58,8 @@ class Prep
 
      if(kaktus!=pole.phon)
          return true;
+     else if((kaktus==pole.phon)&&(ptuca==pole.phon))
+         return false;
      else
          return false;
     }
@@ -68,6 +70,8 @@ class Prep
 
         if(ptuca!=pole.phon)
             return true;
+        else if((kaktus==pole.phon)&&(ptuca==pole.phon))
+            return false;
         else
             return false;
     }
